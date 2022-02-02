@@ -1,0 +1,98 @@
+﻿* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    width: 1440px;
+    height: 88px;
+    background: #455A64;
+}
+
+header .prueba {
+        position: absolute;
+        width: 200px;
+        height: 48.05px;
+        left: 50px;
+        top: 20px;
+    }
+
+header .menu {
+        position: absolute;
+        width: 108px;
+        height: 50px;
+        left: 1238px;
+        top: 21px;
+    }
+
+header .menu .buscador {
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            left: 0px;
+            top: 7px;
+            /*Button*/
+            background-color: transparent;
+            border: none;
+        }
+
+header .menu .buscador:hover {
+                cursor: pointer;
+            }
+
+header .menu .perfil-hija {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 58px;
+            top: 0px;
+            /*Button*/
+            background-color: transparent;
+            border: none;
+        }
+
+header .menu .perfil-hija:hover {
+                cursor: pointer;
+            }
+
+.imagen {
+    position: absolute;
+    width: 1440px;
+    height: 786px;
+    left: 0px;
+    top: 85px;
+    background: rgba(0, 0, 0, 0.57);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main {
+    position:absolute;
+    width: 264px;
+    height: 786px;
+    left: 0px;
+    top: 85px;
+    background: #455A64;
+}
+
+    
+
+    main .boton {
+        position:absolute;
+        color: white;
+        width: 225px;
+        height: 60px;
+        left: 22px;
+        top: 695px;
+        border: 1px dashed #FFFFFF;
+        box-sizing: border-box;
+        font-size: 23px;
+        background-color: transparent;
+    }
+
+        main .boton:hover {
+            cursor: pointer;
+        }
