@@ -54,14 +54,62 @@
 
     <main>
         <div>
-            @{List<Modulos> modulos = ViewBag.Modulos;
+            @{
+                List<Modulos> modulos = ViewBag.Modulos;
+                List<Submodulos> submodulos = ViewBag.SubModulos;
+                int cont = 0;
+                string txtid = "";
+                string txtMod = "";
             }
             <ul id="sortable" class="list-group">
                 @foreach (var mod in modulos)
                 {
+                    txtid = "btnGroupDrop" + mod.intModuloKey.ToString();
+                    txtMod = "exampleModal" + mod.intModuloKey.ToString();
+
                     <li class="list-group-item">
-                        @mod.vchTitulo.ToString()                        
+                        <button id="txtid" type="button" class="btn btn-secondary btn-lg btn-block dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            @mod.vchTitulo
+                        </button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#@txtMod"> Agregar SubMenu </button>
+                        <div class="dropdown-menu" aria-labelledby="txtid">
+                            @foreach (var sub in submodulos)
+                            {
+                                if (sub.intModuloLink == mod.intModuloKey)
+                                {
+                                    <a class="dropdown-item" href="#">@sub.vchTitulo</a>
+                                }
+                            }
+                        </div>
                     </li>
+
+                    <div class="modal fade" id="@txtMod" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modulo @mod.vchTitulo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <form action="/Inicio/GuardarSubModulo" method="post">
+                                    <div class="modal-body">                                        
+                                        <div class="form-group">
+                                            <label for="recipient-name" class="col-form-label">Titulo:</label>
+                                            <input type="text" class="form-control" id="recipient-name" name="vchTitulo" required>
+                                            <input type="hidden" value=@mod.intModuloKey name="intModuloLink"/>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-war" data-dismiss="modal">Cerrar</button>
+                                        <button type="submit" class="btn btn-primary">Guardar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    cont++;
                 }
             </ul>
             <script>

@@ -18,7 +18,7 @@ namespace Kiosko.Data
         public DbSet<Modulos> Modulos { get; set; }
         public DbSet<Notificaciones> intNotificaciones { get; set; }    
         public DbSet<Progresos> intProgresos { get; set; }
-        public DbSet<Submodulos> intSubmodulos { get; set; }
+        public DbSet<Submodulos> Submodulos { get; set; }
         public DbSet<Usuario> intusuario { get; set; }
 
     }

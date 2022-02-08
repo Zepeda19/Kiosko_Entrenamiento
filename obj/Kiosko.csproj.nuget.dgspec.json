@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Entrenamiento .Net Proyects\\kiosko-cms\\Kiosko.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Entrenamiento .Net Proyects\\Kiosko_Entrenamiento\\Kiosko.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Entrenamiento .Net Proyects\\kiosko-cms\\Kiosko.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Entrenamiento .Net Proyects\\Kiosko_Entrenamiento\\Kiosko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Entrenamiento .Net Proyects\\kiosko-cms\\Kiosko.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Entrenamiento .Net Proyects\\Kiosko_Entrenamiento\\Kiosko.csproj",
         "projectName": "Kiosko",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Entrenamiento .Net Proyects\\kiosko-cms\\Kiosko.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Entrenamiento .Net Proyects\\Kiosko_Entrenamiento\\Kiosko.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Entrenamiento .Net Proyects\\kiosko-cms\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Entrenamiento .Net Proyects\\Kiosko_Entrenamiento\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",

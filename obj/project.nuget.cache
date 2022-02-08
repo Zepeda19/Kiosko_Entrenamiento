@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cTspnq6rChSVjJp/ArWNZPNO91kyBeI/U3zikYgsM5bDiG2CumMqc22BiFLDRB+BJNAIYX8T6k07epobZ+ZuSg==",
+  "dgSpecHash": "Tyneq+XWuNZTN+wDez/3l72Q7penRo/SfzzAa1txVNBdMDRKz4KlyvrJWer8FA9++iZYYJ5yjS7XuJpqnHnEJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Entrenamiento .Net Proyects\\kiosko-cms\\Kiosko.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Entrenamiento .Net Proyects\\Kiosko_Entrenamiento\\Kiosko.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
